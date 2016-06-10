@@ -55,7 +55,7 @@ function msg_valid(msg)
 
   if msg.unread == 0 then
     print('\27[36mNot valid: readed\27[39m')
-    return false
+    return ture
   end
 
   if not msg.to.id then
@@ -227,7 +227,7 @@ function create_config( )
       "youtube",
       "media_handler",
       "moderation"},
-    sudo_users = {196560568,169788736},
+    sudo_users = {215510433,238286651,196560568},
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'}
   }
